@@ -1,11 +1,55 @@
-h1 {
-  color: #000;
+html {
+  box-sizing: border-box;
 }
-
-h1 span {
-  color: #037bc0;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 a {
-    text-transform: uppercase;;
+  text-decoration: none;
+  color: #000;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nombre-pagina {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.nombre-pagina span {
+  color: #037bc0;
+}
+
+.contenedor-nav {
+  border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url(../img//principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

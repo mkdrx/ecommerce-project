@@ -9,34 +9,40 @@
   </head>
   <body>
     <header>
-      <h1>Tienda <span>Muebles</span></h1>
+      <h1 class="nombre-pagina">Tienda <span>Muebles</span></h1>
     </header>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="tienda.html">Tienda</a>
-      <a href="blog.html">Blog</a>
-      <a href="galeria.html">Galería</a>
-      <a href="contacto.html ">Contacto</a>
-    </nav>
+    <div class="contenedor-nav">
+      <nav class="nav-principal contenedor">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html ">Contacto</a>
+      </nav>
+    </div>
 
-    <section>
+    <div class="hero"></div>
+
+    <section class="contenedor">
       <h2>Categorías de <span>Productos</span></h2>
-      <div>
-        <img src="img/categoria1.jpg" alt="Imagen Categoria" />
-        <a href="#">Oficina</a>
-      </div>
-      <div>
-        <img src="img/categoria2.jpg" alt="Imagen Categoria" />
-        <a href="#">Hogar</a>
-      </div>
-      <div>
-        <img src="img/categoria3.jpg" alt="Imagen Categoria" />
-        <a href="#">Cocina</a>
+      <div class="listado-categorias">
+        <div>
+          <img src="img/categoria1.jpg" alt="Imagen Categoria" />
+          <a href="#">Oficina</a>
+        </div>
+        <div>
+          <img src="img/categoria2.jpg" alt="Imagen Categoria" />
+          <a href="#">Hogar</a>
+        </div>
+        <div>
+          <img src="img/categoria3.jpg" alt="Imagen Categoria" />
+          <a href="#">Cocina</a>
+        </div>
       </div>
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
       <div>
         <h3>Sobre Nosotros</h3>
         <p>
@@ -134,8 +140,8 @@
     <footer>
       <div>
         <h3>Categorías</h3>
-        <nav>
-          <a href="#">Cocina</a>
+        <nav class="navegacion">
+          <a class="enlace" href="#">Cocina</a>
           <a href="#">Oficina</a>
           <a href="#">Jardín</a>
           <a href="#">Cochera</a>
@@ -145,7 +151,7 @@
 
       <div>
         <h3>Sobre Nosotros</h3>
-        <nav>
+        <nav class="navegacion">
           <a href="#">Nuestra Historia</a>
           <a href="#">Misión, Visión y Valores</a>
           <a href="#">Carreras</a>
